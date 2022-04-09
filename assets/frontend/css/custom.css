@@ -1,0 +1,21 @@
+/* Gallery */
+.gallery-block.grid-gallery a:hover {
+    opacity: 0.5;
+}
+
+.gallery-block.grid-gallery .item img {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.4s;
+}
+
+.title-news.hover-to-primary-color a:hover {
+    color: #007bff !important;
+}
+
+@media (min-width: 576px) {
+
+    .gallery-block.grid-gallery .scale-on-hover:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+    }
+}
